@@ -153,7 +153,7 @@ else
             --recurse-submodules \
             --single-branch \
             --filter=tree:0 \
-            https://github.com/UlekBR/RustyManager.git \
+            https://github.com/adfastltda/RustyManager-Claudemirovsky.git \
             "$REPO_DIR" >"$LOG_FILE" 2>&1 || error_exit "Falha ao clonar RustyManager"
     else
         cp -r "$SCRIPT_PATH" "$REPO_DIR"
